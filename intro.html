@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fancy age finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="header">
+        <h1 class="h1">Welcome To The Age Finder</h1>
+    <marquee behaviour="scroll" direction="left" scrollamount="5" id="marqueeText">
+        Date:<span id="liveDate"></span> | Time:<span id="livetime"></span> | ** Here we get your current age in years, months, weeks, etc.** </marquee>
+       </div>
+       <div class="mainpanel">
+            <div  class="panel">
+            <h2>Find out your Exact Age</h2><br>
+            <p>Enter your date of birth below:</p><br>
+            <input type="date" id="dob" max=""placeholder="Select your birthdate" /><br>
+            <button onclick="findage()">Find My Age</button>
+            <div class="result" id="result"></div></div>
+            </div>
+            <footer id="footer">
+            <p><b>Thanks you for using Age Finder</b></p>
+        </footer>
+
+<script src="script.js"></script>
+</body>
+</html>

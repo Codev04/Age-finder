@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.panel{
+    background-color: #4d0f645d;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    text-align: center;
+    height: 200px;
+    width: 400px;
+    font-size: 19px;
+
+}
+.mainpanel{
+    margin-top: 3em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+   
+}
+
+
+body{
+    margin: 0;
+    background-image: url(grow.jpg);
+    background-size:1600px 800px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+.header{
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+     height: 100px;
+}
+
+
+#marqueeText{
+    background-color: #33337b;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px;
+    margin-top: 14px;
+}
+main{
+    color: #333 ;
+    padding: 30px 10px;
+}
+input[type="date"] {
+    padding: 10px;
+    font-size: 16px;
+}
+button{
+    background-color: #116b11;
+    color:#ffffff;
+    padding: 8px;
+    margin-top:  15px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    width:118px;
+}
+
+button:hover {
+    background-color: #021702;
+
+}
+
+.result {
+    margin-top: 70px;
+    font-size: 18px;
+    color: #0c0404;
+    word-spacing: 4px;
+}
+footer{
+    display: none;
+    margin-top: 13.5em;
+    background-color: #0b0b65;
+    color: white;
+    padding: 15px;
+    text-align: center;;
+}
+#dob{
+    width: 180px;
+    height:20px
+}
+input{
+    border-radius: 20px;
+    padding:5px
+}
